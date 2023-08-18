@@ -33,7 +33,7 @@ window.onload = function() {
   const randomIndexNumber = Math.floor(Math.random() * number.length);
   const randomNumber = number[randomIndexNumber];
 
-  //Coloco el number dentro del HTML (arriba y abajo).
+  //Coloco el number dentro del HTML.
   const numberElement = document.getElementById("valor");
   numberElement.innerText = randomNumber;
 };
